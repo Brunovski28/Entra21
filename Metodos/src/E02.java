@@ -11,8 +11,6 @@ public class E02 {
 			bruno();
 		} else 	if (nome.equalsIgnoreCase("Guilherme")) {
 			guilherme();
-		} else 	if (nome.equalsIgnoreCase("Mayra")) {
-			mayra();
 		} else 	if (nome.equalsIgnoreCase("julio")) {
 			julio();
 		} else {
@@ -20,23 +18,18 @@ public class E02 {
 		}
 	}
 	public static void bruno() {
-		System.out.println("Nome do maromba é Brunovski");
+		System.out.println("Nome do maromba Ã© Brunovski");
 		System.out.println("Ele tem 18 anos");
 		System.out.println("O estudante mai bombado do Entra21");
 	}
 	public static void julio() {
-		System.out.println("Nome do cabas é Júlio Adao");
+		System.out.println("Nome do cabas Ã© JÃºlio Adao");
 		System.out.println("Ele tem 26 anos");
-		System.out.println("Ele é estudante do Entra21");
+		System.out.println("Ele Ã© estudante do Entra21");
 	}
 	public static void guilherme() {
-		System.out.println("Nome do cabas é Guilherme Macedo");
+		System.out.println("Nome do cabas Ã© Guilherme Macedo");
 		System.out.println("Ele tem 16 anos");
-		System.out.println("Ele é estudante do Entra21");
-	}
-	public static void mayra() {
-		System.out.println("Nome da gata é Mayra Becker");
-		System.out.println("Ela tem 17 anos");
-		System.out.println("É a mais gata do cedup");
+		System.out.println("Ele Ã© estudante do Entra21");
 	}
 }
